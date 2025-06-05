@@ -1,5 +1,5 @@
 #!/bin/sh
 
 export CI=true
-npm build
+npm run build
 npm test ${@}
